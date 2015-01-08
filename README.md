@@ -5,6 +5,6 @@
   
 ####### Qeyd 1: Proqramların 85%dən çoxunu özüm yazmışam. Amma bir neçəsini internetdən hazır götürmüşəm. 
 
-####### Qeyd 2: Proqramlar VS kompilyatorun da işlənib-hazırlanıb.
+####### Qeyd 2: Proqramlar VS kompilyatorunda işlənib-hazırlanıb.
 
 ## Keep calm and love programming.
