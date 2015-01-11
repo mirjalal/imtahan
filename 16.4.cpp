@@ -30,10 +30,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	}
 
 	for (i = 0; i < v_eded.size(); i++)
-	{
-		if (i % 2 == 1)
-			cutlerin_yigini = partition(v_eded.begin(), v_eded.end(), f_cut);
-	}
+		cutlerin_yigini = partition(v_eded.begin(), v_eded.end(), f_cut);
 
 	for (addim = v_eded.begin(); addim != cutlerin_yigini; ++addim)
 		cem += *addim;
