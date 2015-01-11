@@ -1,10 +1,9 @@
 ﻿// 16.5.cpp : Verilmiş sətirdə ən uzun sözun uzunluğunu hesablayan proqram tərtib edin. 
 
 #include "stdafx.h"
-#include <algorithm>
-#include <iostream>	// cin, cout
-#include <sstream>	// getline
-#include <vector>	// vector
+#include <iostream>
+#include <sstream>
+#include <vector>
 
 using namespace std;
 
@@ -34,10 +33,10 @@ int _tmain(int argc, _TCHAR* argv[])
 		}
 	}
 
-	cout << en_uzun << endl;
-
 	v_setir.clear();
 	vector<string>().swap(v_setir);
+
+	cout << en_uzun << endl;
 
 	return 0;
 }

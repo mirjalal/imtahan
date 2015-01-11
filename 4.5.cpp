@@ -12,8 +12,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	cout << "Setri daxil edin: ";
 	string setir;
-	getline(cin, setir); // daxil olunan setiri oxuyuram. cin >> setir; yazsaz alinmaya biler. cunki getline() və cin operatorları
-						//  ferqli funksiyalari yerine yetirir 
+	getline(cin, setir);
 
 	vector<string> v_setir; // string tipində v_setir adında vektor yaradıram
 	vector<string>::iterator axtarilan; // biraz aşağıya bax, bu nəyə lazımdı yazmışam
@@ -57,8 +56,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	 * 
 	 * eyni nəticəni verməlidi. özün yoxla ;)
 	 *
-	 * o biri üsulu başqa vaxt deyərəm. qrupda, bufetdə və s... harda istəsəz))))) deyib beynini bulandırmıyım :D
-	 **/
+	 */
 
 	replace(v_setir.begin(), v_setir.end(), hansi, evezlenecek_ifade);
 	/*
@@ -66,18 +64,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	 *
 	 * vektorun əvvəlindən axırına kimi göstərilən elementi göstərilən elementlə əvəz et.
 	 * 
-	 * mənə elə gəlir ki, sintaksisindən də aydın olur. nəsə aydın olmasa yaz mənə, suallarını cavablandırım.
-	 *
-	 * Narahat eləməydən çəkinmə ;) :)
-	 * 
 	 */
 
 	cout << "Deyisiklik edilenden sonra alinan metn: " << endl;
-	for (auto k : v_setir) // aydın məsələdi nə elədiyi
+	for (auto k : v_setir)
 		cout << k << endl;
 
-	v_setir.clear(); // vektorun içindəkiləri silir
-	vector<string>().swap(v_setir); // yaddaşdan ayırdığı yeri silir
+	v_setir.clear();
+	vector<string>().swap(v_setir);
 
 	return 0;
 }

@@ -59,8 +59,10 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	tek.clear();
 	vector<int>().swap(tek);
+
 	cut.clear();
 	vector<int>().swap(cut);
+
 	uce_bolunen.clear();
 	vector<int>().swap(uce_bolunen);
 

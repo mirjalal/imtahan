@@ -26,22 +26,8 @@ int _tmain(int argc, _TCHAR* argv[])
 			say++;
 		token = strtok_s(NULL, exclude, NULL);
 	}
-
+	 
 	cout << """";
-
-
-
-
-	
-	while (token != NULL)
-	{
-		// While there are tokens in "string"
-		printf(" %s\n", token);
-
-		// Get next token: 
-		
-	}
-
 
 	return 0;
 }

@@ -9,9 +9,9 @@ using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int int_eded, birinci, sonuncu;
-	cin >> int_eded; // int tipindəki ədədi oxuyuram
+	cin >> int_eded;
 	
-	string string_eded = to_string(int_eded); // oxuduğum ədədi string-ə convert to_string() vasitəsilə
+	string string_eded = to_string(int_eded);
 	
 	int son_index = string_eded.length(); // string-ə çevrilmiş ədədin uzunluğunu tapıram
 	

@@ -14,25 +14,23 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	cout << "Setiri daxil edin: ";
 	string setir;
-	getline(cin, setir); // daxil olunan setiri oxuyuram. cin >> setir; yazsaz alinmaya biler. cunki getline() və cin operatorları
-						//  ferqli funksiyalari yerine yetirir 
+	getline(cin, setir);
 
-	vector<string> v_setir; // string tipində v_setir adında vektor yaradıram
+	vector<string> v_setir;
 	string ifadeler;
-	istringstream yig(setir);   // bu istringstream tipində götürdüyüm bu funksiya vasitəsilə vektora elementləri daxil etmək üçün
-								// onları parse edirəm
+	istringstream yig(setir);
 
 	while (yig >> ifadeler) // əgər oxunursa onda,
 		v_setir.push_back(ifadeler); // vektorun içərisinə həmin elementləri daxil edir
 
-	for (i = 0; i < v_setir.size(); i++) // v_setir.size() hal-hazırda vektorun içərisindəki elementlərin sayını tapır
+	for (i = 0; i < v_setir.size(); i++)
 	{
-		if (v_setir.at(i).size() % 2 == 1)	// əgər i-ci yerdə duran elementin simvollarının sayı cütdürsə, onda
-			say++;							// sayın üstünə bir əlavə edir
+		if (v_setir.at(i).size() % 2 == 1)
+			say++;
 	}
 
-	v_setir.clear(); // vektorun içindəkiləri silir
-	vector<string>().swap(v_setir); // yaddaşdan ayırdığı yeri silir
+	v_setir.clear();
+	vector<string>().swap(v_setir);
 
 	cout << "Uzunlugu tek olan sozerin sayi: " << say << endl;
 

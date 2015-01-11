@@ -7,7 +7,6 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	// mənə elə gəlir ki burda çox da çətin bir şey yoxdu başa düşmək üçün. (vaxt itkisi olmasın deyə yazmaq istəmədim əlavə comment)
 	int istifade_sayi = 0;
 
 	cout << "Setri daxil edin: ";
